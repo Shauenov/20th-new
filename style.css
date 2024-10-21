@@ -1,0 +1,43 @@
+.box1{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+}
+img{
+    width: 300px;
+}
+.box{
+    display:grid;
+    place-content: center;
+    grid-template-columns: 350px 350px 350px;
+    margin:150px 0px 0px 0px;
+
+}
+body{
+    
+    justify-content: center;
+    min-height: 100vh;
+    
+    gap: 30px;
+    background-color: rgb(125, 135, 135);
+}
+.icon{
+    width: 50px;
+    border-radius: 100%;
+    padding: 10px;
+
+}
+.box2{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+
+}
+.box3{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+}
+.footer{
+    display: flex;
+}
+.boxing1, .boxing2, .boxing3{
+    padding:22px;
+}
